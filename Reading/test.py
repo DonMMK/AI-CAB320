@@ -1,3 +1,6 @@
+import http
+
+
 num = 2+2
 print(num)
 
@@ -31,7 +34,7 @@ for i in range(5):
 while True:
     pass # the pass statement does nothing. 
          # It can be used as a placeholder for code that will be written in the future.
-
+    break # exit the loop
 
 # match statements
 
@@ -45,3 +48,5 @@ def http_error(status):
             return "I'm a teapot"
         case _:
             return "Something's wrong with the internet"
+
+http_error(404)
