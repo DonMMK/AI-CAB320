@@ -50,3 +50,50 @@ def http_error(status):
             return "Something's wrong with the internet"
 
 http_error(404)
+
+# Patterns
+
+class Point:
+    x: int
+    y: int
+
+# point is an (x, y) tuple
+def where_is(point):
+    match point:
+        case (0, 0):
+            print("Origin")
+        case (0, y):
+            print(f"Y={y}")
+        case (x, 0):
+            print(f"X={x}")
+        case (x, y):
+            print(f"X={x}, Y={y}")
+        case _:
+            raise ValueError("Not a point")
+        
+where_is()
+    
+# Documentation strings
+
+def my_function():
+    """ Do nothing, but document it
+    
+    
+    """
+    pass
+    
+print(my_function.__doc__)
+
+# Naming conventions
+# Name your classes and functions consistently; 
+# the convention is to use UpperCamelCase for classes and lowercase_with_underscores for functions and methods. 
+# Always use self as the name for the first method argument (see A First Look at Classes for more on classes and methods).
+
+
+# Data Structures
+# Lists: append , extend, insert, remove, pop, clear etc etc
+# Use Lists as Stacks, Using Lists as Queues
+
+
+# Modules
+# 
