@@ -12,8 +12,9 @@ Last modified by f.maire@qut.edu.au on 2022/01/31
 import sys
 import itertools, time
 
-if sys.version < '3.5':
-    raise Exception("You should be using Python 3.5 or later")
+# if sys.version < '3.5':
+#     print(sys.version)
+#     raise Exception("You should be using Python 3.5 or later")
 
 def imright(h1, h2):
     "House h1 is immediately right of h2 if h1-h2 == 1."
