@@ -11,7 +11,7 @@ Week 5: Informed Search Analysis
 Week 6: Constraint Satisfaction Problems  
 Week 7: Dynamic Programming  
 Week 8: Introduction to Machine Learning  
-Week 9: Neural Networks
+Week 9: Neural Networks  
 Week 10: Reinforcement Learning - Tabular methods  
 Week 11: Reinforcement Learning - Alpha Zero  
 Week 12: Genetic Algorithms  
