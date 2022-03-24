@@ -2,19 +2,20 @@
 This repository contains the code for CAB320 which is a part of the optional curriculum of the Robotics Minor. 
 
 ### Topics Covered 
-Week 1: 
-Week 2:
-Week 3:
-Week 4:
-Week 5:
-Week 6: 
-Week 7:
-Week 8:
-Week 9:
-Week 10:
-Week 11:
-Week 12:
-Week 13:
+Week 0: Diagnostic Assessment  
+Week 1: Unit overview and Intro to AI  
+Week 2: Discrete Math tools for AI  
+Week 3: Uninformed Search  
+Week 4: Informed Search Heuristics  
+Week 5: Informed Search Analysis  
+Week 6: Constraint Satisfaction Problems  
+Week 7: Dynamic Programming  
+Week 8: Introduction to Machine Learning  
+Week 9: Neural Networks
+Week 10: Reinforcement Learning - Tabular methods  
+Week 11: Reinforcement Learning - Alpha Zero  
+Week 12: Genetic Algorithms  
+Week 13: Revision  
 
 #### Learning outcomes
 -   Explain AI methods and theories and how they can be applied to real world problems.
